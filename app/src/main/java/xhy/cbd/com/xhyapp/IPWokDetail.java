@@ -21,7 +21,6 @@ public class IPWokDetail extends AppCompatActivity {
         int workId=intent.getIntExtra("workId",1);
         String workName=intent.getStringExtra("workName");
 
-
         texview_workName=(TextView)findViewById(R.id.texview_workName);
         texview_workName.setText(workName);
         btn_goback=(ImageButton)findViewById(R.id.btn_goback);
