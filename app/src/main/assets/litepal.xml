@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value="xhy_db"/>
+    <version value="1"/>
+    <list>
+        <mapping class="xhy.cbd.com.xhyapp.db.Report"/>
+        <mapping class="xhy.cbd.com.xhyapp.db.User"/>
+    </list>
+</litepal>

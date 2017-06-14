@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xhy.cbd.com.xhyapp.IPWokDetail">
+    <ImageView
+        android:id="@+id/bg_img"
+        android:background="@drawable/back"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <include layout="@layout/head_layout"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/report_content"
+
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="\u3000\u3000城管执法人员在巡逻辖区内柳芳街道周边环境时发现，道路上出现大量建筑垃圾，给来往的车辆及行人造成不便，也影响了周边的环境，急需解决。"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#fff" android:layout_marginBottom="5dp"/>
+          <ImageView
+
+                android:id="@+id/garbage1"
+                android:src="@drawable/garbage"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" />
+          <LinearLayout
+              android:orientation="horizontal"
+            android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <ImageView
+                  android:layout_marginRight="5dp"
+                  android:padding="0dp"
+                  android:src="@drawable/weizhi"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <TextView
+                  android:layout_marginLeft="5dp"
+                  android:layout_gravity="center_vertical"
+                  android:text="朝阳街柳芳北街道"
+                  android:textColor="#fff"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+          </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#fff" android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xhy.cbd.com.xhyapp.IPWokDetail">
+    <ImageView
+        android:id="@+id/bg_img"
+        android:background="@drawable/back"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/head_layout"/>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:orientation="horizontal"
+            app:rowCount="6"
+            app:columnCount="5"
+            >
+
+            <TextView android:text="专项行动信息" android:background="@drawable/textview_border"  app:layout_rowWeight="2"  android:width="40dp" android:textColor="#4fa5d5"   app:layout_rowSpan="2"   android:gravity="center"/>
+            <TextView android:text="计划完成时间"   android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="工作任务" android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1"  android:background="@drawable/textview_border"   android:gravity="center"/>
+            <TextView android:text="主管领导" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="责任科室" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="2月" android:textColor="#fff"  app:layout_rowWeight="1"  app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="违法建筑拆除"  android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="水伟"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="城管队"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+
+            <TextView android:text="年度总任务量" android:background="@drawable/textview_border"  app:layout_rowWeight="2" android:width="40dp"   android:textColor="#4fa5d5"    app:layout_rowSpan="2"   android:gravity="center"/>
+            <TextView android:text="涉及土地面积" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="建筑面积㎡(年)" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+            <TextView android:text="数量(个/套/户)" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="涉及人口" android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="1800"  android:textColor="#fff"   app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="1400"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="8"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="68"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+
+            <TextView android:text="每周任务量" android:background="@drawable/textview_border"  app:layout_rowWeight="2" android:width="40dp"   android:textColor="#4fa5d5"    app:layout_rowSpan="2"   android:gravity="center"/>
+            <TextView android:text="涉及土地面积" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="建筑面积㎡(年)" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+            <TextView android:text="数量(个/套/户)" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="涉及人口" android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="1800"  android:textColor="#fff"   app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="1400"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="8"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+            <TextView android:text="68"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+</FrameLayout>

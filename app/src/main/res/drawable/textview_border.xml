@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+
+    <!-- 边框 -->
+    <stroke android:width="0.05dip" android:color="#324650"/>
+    <!-- 边距 -->
+    <padding android:bottom="2dp" android:left="0dp" android:right="0dp" android:top="2dp"/>
+    <!-- 圆角 -->
+    <!--<corners android:radius="3dp" />-->
+    <!-- 渐变 -->
+    <!--<gradient-->
+        <!--android:angle="270"-->
+        <!--android:endColor="#FFFF782"-->
+        <!--android:startColor="#13C7AF" />-->
+</shape>

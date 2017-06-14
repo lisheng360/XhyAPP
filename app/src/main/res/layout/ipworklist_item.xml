@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/workName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+         android:textColor="#fff"
+       android:gravity="center_vertical|left"
+        />
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff"
+ />
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|left"
+        android:textColor="#fff"
+/>
+    <ImageView
+        android:id="@+id/percentImg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|right"
+        />
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:gravity="center_vertical|right"
+    />
+</LinearLayout>

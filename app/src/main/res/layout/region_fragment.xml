@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rowCount="6"
+    app:columnCount="5"
+    >
+    <TextView android:background="@drawable/textview_border"  app:layout_rowWeight="2"  android:width="70dp" android:textColor="#4fa5d5" android:text="社会治理(2017年1-7月)"   app:layout_rowSpan="2"   android:gravity="center"/>
+    <TextView android:text="常驻人口" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="户籍人口" android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1"  android:background="@drawable/textview_border"   android:gravity="center"/>
+    <TextView android:text="流动人口" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="人口疏解" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123" android:textColor="#fff"  app:layout_rowWeight="1"  app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1"  android:background="@drawable/textview_border"  android:gravity="center"/>
+
+    <TextView android:background="@drawable/textview_border"  app:layout_rowWeight="2" android:width="70dp"   android:textColor="#4fa5d5" android:text="社会服务(2017年1-7月)"   app:layout_rowSpan="2"   android:gravity="center"/>
+    <TextView android:text="高龄津贴" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="低保家庭" android:textColor="#fff" app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+    <TextView android:text="残疾人" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="一刻钟服务圈" android:textColor="#fff" app:layout_rowWeight="1"  app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"   app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+
+
+    <TextView android:background="@drawable/textview_border" app:layout_rowWeight="2"  android:width="70dp"  android:textColor="#4fa5d5" android:text="经济管理(2017年1-7月)"   app:layout_rowSpan="2"   android:gravity="center"/>
+    <TextView android:text="税收" android:textColor="#fff"   app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="区级收入" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+    <TextView android:text="新入驻企业数" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"  android:gravity="center"/>
+    <TextView android:text="税源企业" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+    <TextView android:text="123" android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"    android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"    android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"    android:gravity="center"/>
+    <TextView android:text="123"  android:textColor="#fff"  app:layout_rowWeight="1" app:layout_columnWeight="1" android:background="@drawable/textview_border"   android:gravity="center"/>
+
+
+</android.support.v7.widget.GridLayout>
