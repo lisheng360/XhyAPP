@@ -16,8 +16,6 @@ public class IPWokDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ipwok_detail);
 
-
-
         //获取参数
         Intent intent = this.getIntent();
         int workId=intent.getIntExtra("workId",1);
