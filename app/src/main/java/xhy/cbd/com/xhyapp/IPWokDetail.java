@@ -25,7 +25,6 @@ public class IPWokDetail extends AppCompatActivity {
         texview_workName.setText(workName);
         btn_goback=(ImageButton)findViewById(R.id.btn_goback);
 
-
         btn_goback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
